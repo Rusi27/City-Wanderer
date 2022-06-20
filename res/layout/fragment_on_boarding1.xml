@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OnBoardingFragment1"
+    android:id="@+id/relLayout"
+    android:background="@color/colorPrimary">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotAnimTravel"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="1.10"
+        app:lottie_fileName="bus_anim.json"/>
+
+    <TextView
+        android:id="@+id/tvTravel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/lotAnimTravel"
+        android:text="@string/tv_travel"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"/>
+    
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotAnimBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/tvTravel"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="0.9"
+        app:lottie_fileName="burger_anim.json"/>
+
+    <TextView
+        android:id="@+id/tvRestaurants1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lotAnimBurger"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tv_restaurants_1"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tvRestaurants2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRestaurants1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tv_restaurants_2"
+        android:textSize="17dp"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>

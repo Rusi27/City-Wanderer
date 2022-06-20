@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/et_username"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:layout_below="@id/etUsername"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/et_password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_below="@id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_login"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_background"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/btLogin"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_or"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbtGoogleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:src="@drawable/google_sign_in_button"
+        android:backgroundTint="@color/colorWhite"/>
+
+</RelativeLayout>

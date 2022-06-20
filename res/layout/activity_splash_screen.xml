@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:elevation="2dp"
+        android:background="@drawable/splash_screen_background"/>
+    
+    <ImageView
+        android:id="@+id/ivAppLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:elevation="2dp"
+        android:src="@drawable/app_logo"/>
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivAppLogo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:elevation="2dp"
+        android:text="@string/app_name"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <com.cuberto.liquid_swipe.LiquidPager
+        android:id="@+id/liquidPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/tvAccommodationPreference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/tv_accommodation_heading"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAccommodationChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/tv_accommodation_choice"
+        android:textColor="@color/colorBlack"/>
+
+    <Spinner
+        android:id="@+id/spinnerAccommodationChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/spinner_background"/>
+
+    <TextView
+        android:id="@+id/tvAccommodationRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/tv_accommodation_preference"
+        android:textColor="@color/colorBlack"/>
+
+    <Spinner
+        android:id="@+id/spinnerAccommodationRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/spinner_background"/>
+
+    <TextView
+        android:id="@+id/tvAccommodationPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:text="@string/tv_swipe"
+        android:textSize="15dp"
+        android:textColor="@color/colorBlack"/>
+
+</LinearLayout>

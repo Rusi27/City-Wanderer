@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BEProjectDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item><!-- App Label -->
+        <item name="colorPrimaryDark">@color/colorBlack</item><!-- Notification Shade -->
+        <item name="colorAccent">@color/colorPrimary</item><!-- Accent -->
+    </style>
+
+    <style name="Theme.BEProjectDark2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+</resources>

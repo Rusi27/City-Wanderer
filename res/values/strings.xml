@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Wanderer</string>
+    <string name="google_maps_api_key">AIzaSyDHrkNtDz85tgCYosdjLhj5FNpfie2qrHA</string>
+
+    <!--On Boarding Fragment 1-->
+    <string name="tv_travel">Explore new cities!</string>
+    <string name="tv_restaurants_1">Hungry? We got it covered!</string>
+    <string name="tv_restaurants_2">Top rated restaurants, at your service</string>
+
+    <!--On Boarding Fragment 2-->
+    <string name="tv_hotel1">Want to explore more?</string>
+    <string name="tv_hotel2">Stay in the city, continue the next day</string>
+    <string name="tv_taxi1">Travel in style...</string>
+    <string name="tv_taxi2">And in budget!</string>
+
+    <!-- On Boarding Fragment 3-->
+    <string name="btn_get_started">Get Started</string>
+
+    <!-- Login Fragment -->
+    <string name="et_username">Enter Username</string>
+    <string name="et_password">Enter Password</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_or">~~ OR ~~</string>
+
+    <!-- Sign Up Fragment-->
+    <string name="et_set_username">Set Username (abc@email.com)</string>
+    <string name="et_set_password">Set Password</string>
+    <string name="et_confirm_password">Confirm Password</string>
+    <string name="btn_sign_up">SignUp</string>
+
+    <string name="tv_swipe">Swipe left for next page</string>
+
+    <!--Food Fragment-->
+    <string name="tv_food_heading">Set your food preferences</string>
+    <string name="tv_cuisine_choice">Choose a favourable cuisine</string>
+    <string-array name="cuisine_list">
+        <item>Indian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+        <item>Local</item>
+        <item>Multi-cuisine</item>
+    </string-array>
+    <string name="tv_rating_preference">Preferred restaurant rating</string>
+    <string-array name="spinner_restaurant_rating">
+        <item>1-star</item>
+        <item>2-star</item>
+        <item>3-star</item>
+        <item>4-star</item>
+        <item>5-star</item>
+    </string-array>
+    <string name="tv_food_page">1 ~ ~ ~</string>
+
+    <!--Travel Fragment-->
+    <string name="tv_travel_heading">Set your travel preferences</string>
+    <string name="tv_own_vehicle">Do you prefer to take your own vehicle?</string>
+    <string-array name="spinner_own_vehicle">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string name="tv_vehicle_preference">Choose your preferable means of transport</string>
+    <string-array name="spinner_vehicle_preference">
+        <item>Bus</item>
+        <item>Cab</item>
+        <item>None (own vehicle)</item>
+    </string-array>
+    <string name="tv_travel_page">~ 2 ~ ~</string>
+
+    <!--Accommodation Fragment-->
+    <string name="tv_accommodation_heading">Set your accommodation preferences</string>
+    <string name="tv_accommodation_choice">Do you want accommodation recommendations?</string>
+    <string-array name="spinner_accommodation_choice">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string name="tv_accommodation_preference">Preferred accommodation rating</string>
+    <string-array name="spinner_accommodation_rating">
+        <item>1-star</item>
+        <item>2-star</item>
+        <item>3-star</item>
+        <item>4-star</item>
+        <item>5-star</item>
+    </string-array>
+    <string name="tv_accommodation_page">~ ~ 3 ~</string>
+
+    <!--Interests Fragment-->
+    <string name="tv_interests_heading">Set your interests</string>
+    <string name="tv_person_type">Choose preferable option</string>
+    <string-array name="spinner_person_type">
+        <item>Indoor</item>
+        <item>Outdoor</item>
+    </string-array>
+    <string name="tv_activity_type">Select type of activity</string>
+    <string-array name="spinner_activity_type">
+        <item>Historical monuments</item>
+        <item>Museums</item>
+        <item>Nature trails/Hiking</item>
+        <item>Local marketplaces</item>
+        <item>Malls</item>
+    </string-array>
+    <string name="btn_submit">Submit</string>
+    <string name="tv_interests_page">~ ~ ~ 4</string>
+
+    <!--Trip Generator Activity-->
+    <string name="tv_heading">Trip Details</string>
+    <string name="tv_select_city">Select City</string>
+    <string-array name="spinner_city">
+        <item>Pune</item>
+        <item>Lucknow</item>
+        <item>Mumbai</item>
+        <item>Chandigarh</item>
+        <item>Delhi</item>
+        <item>Banglore</item>
+        <item>Indore</item>
+        <item>Nagpur</item>
+        <item>Noida</item>
+        <item>Hyderabad</item>
+        <item>Gurgaon</item>
+    </string-array>
+    <string name="tv_select_budget">Select a budget range</string>
+    <string-array name="spinner_budget">
+        <item>2000-5000</item>
+        <item>6000-10000</item>
+        <item>11000-15000</item>
+        <item>16000-20000</item>
+        <item>21000-30000</item>
+    </string-array>
+    <string name="btn_generate_trip">Generate Trip Plan</string>
+</resources>
